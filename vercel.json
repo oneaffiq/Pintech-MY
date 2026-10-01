@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/ezDurian",
+      "destination": "https://ez-durian.vercel.app/"
+    },
+    {
+      "source": "/ezDurian/:path*",
+      "destination": "https://ez-durian.vercel.app/:path*"
+    }
+  ]
+}
