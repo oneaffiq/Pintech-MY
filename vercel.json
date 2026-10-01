@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/ezDurian",
-      "destination": "https://ez-durian.vercel.app/"
+      "destination": "https://ez-durian.vercel.app/ezDurian"
     },
     {
       "source": "/ezDurian/:path*",
-      "destination": "https://ez-durian.vercel.app/:path*"
+      "destination": "https://ez-durian.vercel.app/ezDurian/:path*"
     }
   ]
 }
